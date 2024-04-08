@@ -127,11 +127,11 @@ export const food_list = [
     },
     {
         _id: "2",
-        name: "Fry Momo",
+        name: "Green Momo",
         image: food_2,
         price: 18,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Fry Momo"
+        category: "Pure Veg"
     }, {
         _id: "3",
         name: "Veg Momo",
@@ -141,210 +141,210 @@ export const food_list = [
         category: "Veg Momo"
     }, {
         _id: "4",
-        name: "Chicken Salad",
+        name: "Chicken Jhol Momo",
         image: food_4,
         price: 24,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Salad"
+        category: "Steam Momo"
     }, {
         _id: "5",
-        name: "Lasagna Rolls",
+        name: "Cruncy Fried Momo",
         image: food_5,
         price: 14,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Rolls"
+        category: "Fry Momo"
     }, {
         _id: "6",
-        name: "Peri Peri Rolls",
+        name: "Veg Juicy Momo",
         image: food_6,
         price: 12,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Rolls"
+        category: "Veg Momo"
     }, {
         _id: "7",
-        name: "Chicken Rolls",
+        name: "Tandoori Momo",
         image: food_7,
         price: 20,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Rolls"
+        category: "Fry Momo"
     }, {
         _id: "8",
-        name: "Veg Rolls",
+        name: "Chocolate Momos",
         image: food_8,
         price: 15,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Rolls"
+        category: "Momo Flatter"
     }, {
         _id: "9",
-        name: "Ripple Ice Cream",
+        name: "Chilly Momo",
         image: food_9,
         price: 14,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Deserts"
+        category: "C Momo"
     }, {
         _id: "10",
-        name: "Fruit Ice Cream",
+        name: "Bamboo Hot Momo",
         image: food_10,
         price: 22,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Deserts"
+        category: "T Momo"
     }, {
         _id: "11",
-        name: "Jar Ice Cream",
+        name: "Kothe Momo",
         image: food_11,
         price: 10,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Deserts"
+        category: "K Momo"
     }, {
         _id: "12",
-        name: "Vanilla Ice Cream",
+        name: "Wheat Momo",
         image: food_12,
         price: 12,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Deserts"
+        category: "Pure Veg"
     },
     {
         _id: "13",
-        name: "Chicken Sandwich",
+        name: "Dumpling Jhol Momo",
         image: food_13,
         price: 12,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Sandwich"
+        category: "T Momo"
     },
     {
         _id: "14",
-        name: "Vegan Sandwich",
+        name: "Fish Momo",
         image: food_14,
         price: 18,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Sandwich"
+        category: "T Momo"
     }, {
         _id: "15",
-        name: "Grilled Sandwich",
+        name: "Sweet Momo",
         image: food_15,
         price: 16,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Sandwich"
+        category: "Pure Veg"
     }, {
         _id: "16",
-        name: "Bread Sandwich",
+        name: "Spinach Momo",
         image: food_16,
         price: 24,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Sandwich"
+        category: "Fry Momo"
     }, {
         _id: "17",
-        name: "Cup Cake",
+        name: "Kothey Momo",
         image: food_17,
         price: 14,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Cake"
+        category: "K Momo"
     }, {
         _id: "18",
-        name: "Vegan Cake",
+        name: "Soup and Dumplings",
         image: food_18,
         price: 12,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Cake"
+        category: "Veg Momo"
     }, {
         _id: "19",
-        name: "Butterscotch Cake",
+        name: "Strawberry Momo",
         image: food_19,
         price: 20,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Cake"
+        category: "Veg Momo"
     }, {
         _id: "20",
-        name: "Sliced Cake",
+        name: "Momo Chicken Breast",
         image: food_20,
         price: 15,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Cake"
+        category: "C Momo"
     }, {
         _id: "21",
-        name: "Garlic Mushroom ",
+        name: "Korean Spicy Momo",
         image: food_21,
         price: 14,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pure Veg"
+        category: "Momo Flatter"
     }, {
         _id: "22",
-        name: "Fried Cauliflower",
+        name: "Kruncy Momo",
         image: food_22,
         price: 22,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pure Veg"
+        category: "Fry Momo"
     }, {
         _id: "23",
-        name: "Mix Veg Pulao",
+        name: "Chopsy Momo",
         image: food_23,
         price: 10,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pure Veg"
+        category: "T Momo"
     }, {
         _id: "24",
-        name: "Rice Zucchini",
+        name: "Chopstick Momo",
         image: food_24,
         price: 12,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pure Veg"
+        category: "T Momo"
     },
     {
         _id: "25",
-        name: "Cheese Pasta",
+        name: "Cheese Momo",
         image: food_25,
         price: 12,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pasta"
+        category: "Pure Veg"
     },
     {
         _id: "26",
-        name: "Tomato Pasta",
+        name: "Momo & Ketchup",
         image: food_26,
         price: 18,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pasta"
+        category: "Steam Momo"
     }, {
         _id: "27",
-        name: "Creamy Pasta",
+        name: "Fry Momo & Pickle",
         image: food_27,
         price: 16,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pasta"
+        category: "Fry Momo"
     }, {
         _id: "28",
-        name: "Chicken Pasta",
+        name: "Red Chilly Momo",
         image: food_28,
         price: 24,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pasta"
+        category: "Steam Momo"
     }, {
         _id: "29",
-        name: "Buttter Noodles",
+        name: "Dumpling T Momo",
         image: food_29,
         price: 14,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Noodles"
+        category: "T Momo"
     }, {
         _id: "30",
-        name: "Veg Noodles",
+        name: "Momo with Salad",
         image: food_30,
         price: 12,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Noodles"
+        category: "Pure Veg"
     }, {
         _id: "31",
-        name: "Somen Noodles",
+        name: "Samosa Momo",
         image: food_31,
         price: 20,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Noodles"
+        category: "Pure Veg"
     }, {
         _id: "32",
-        name: "Cooked Noodles",
+        name: "MomoStick & Sauce",
         image: food_32,
         price: 15,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Noodles"
+        category: "C Momo"
     }
 ]
