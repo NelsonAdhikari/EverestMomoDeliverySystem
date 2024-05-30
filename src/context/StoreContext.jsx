@@ -1,19 +1,29 @@
-import { createContext, useEffect, useState } from "react";
+import React, { createContext, useEffect, useState } from "react";
 import { food_list } from "../assets/assets";
 
 export const StoreContext = createContext(null);
 
 const StoreContextProvider = (props) => {
-  const [cartItems, setCardItems] = useState({});
+  const [cartItems, setCartItems] = useState(() => {
+    // Initialize state from local storage
+    const savedCart = localStorage.getItem('cart');
+    return savedCart ? JSON.parse(savedCart) : {};
+  });
+
   const addToCart = (itemId) => {
-    if (!cartItems[itemId]) {
-      setCardItems((prev) => ({ ...prev, [itemId]: 1 }));
-    } else {
-      setCardItems((prev) => ({ ...prev, [itemId]: prev[itemId] + 1 }));
-    }
+    setCartItems((prev) => ({ ...prev, [itemId]: (prev[itemId] || 0) + 1 }));
   };
+
   const removeFromCart = (itemId) => {
-    setCardItems((prev) => ({ ...prev, [itemId]: prev[itemId] - 1 }));
+    setCartItems((prev) => {
+      const newCart = { ...prev };
+      if (newCart[itemId] > 1) {
+        newCart[itemId] -= 1;
+      } else {
+        delete newCart[itemId];
+      }
+      return newCart;
+    });
   };
 
   const getTotalCartAmount = () => {
@@ -27,14 +37,20 @@ const StoreContextProvider = (props) => {
     return totalAmount;
   };
 
+  // Save cart items to local storage whenever cartItems changes
+  useEffect(() => {
+    localStorage.setItem('cart', JSON.stringify(cartItems));
+  }, [cartItems]);
+
   const contextValue = {
     food_list,
     cartItems,
-    setCardItems,
+    setCartItems,
     addToCart,
     removeFromCart,
-    getTotalCartAmount
+    getTotalCartAmount,
   };
+
   return (
     <StoreContext.Provider value={contextValue}>
       {props.children}
